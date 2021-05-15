@@ -43,12 +43,6 @@
   {% endif %}
   </div> <!-- .access -->
 
-  <!-- twitter widget starts here -->
-  <div class='jekyll-twitter-plugin' align='center'>
-    {% twitter https://twitter.com/thehackersbrain maxwidth=500 limit=2 %}
-  </div>
-  <!-- twitter widget ends here -->
-
   {% if include.toc %}
     <!-- BS-toc.js will be loaded at medium priority -->
     <script src="https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.js"></script>
@@ -59,5 +53,11 @@
       <nav id="toc" data-toggle="toc"></nav>
     </div>
   {% endif %}
+
+  <!-- twitter widget starts here -->
+  <div class='jekyll-twitter-plugin' align='center'>
+    {% twitter https://twitter.com/thehackersbrain maxwidth=500 limit=2 %}
+  </div>
+  <!-- twitter widget ends here -->
 
 </div> <!-- #panel-wrapper -->
