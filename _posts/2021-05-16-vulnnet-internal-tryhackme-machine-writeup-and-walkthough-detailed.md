@@ -101,7 +101,7 @@ after analyzing the **Nmap** result found `SMB` Server running on default port \
 
 ## SMB Enumeration
 
-Little Info About SMB
+### Information
 SMB stands for ‘Server Message Blocks’. Server Message Block in modern language is also known as Common Internet File System. The system operates as an application-layer network protocol primarily used for offering shared access to files, printers, serial ports, and other sorts of communications between nodes on a network.
 
 For getting more familiar with it. read [this](https://book.hacktricks.xyz/pentesting/pentesting-smb)
@@ -464,7 +464,7 @@ Authorization for rsync://rsync-connect@127.0.0.1 with password <confidential :)
 ## Rsync Enumeration (873)
 
 ### Basic Info
-**rsync** is a utility for efficiently [transferring](https://en.wikipedia.org/wiki/File_transfer) and [synchronizing](https://en.wikipedia.org/wiki/File_synchronization) [files](https://en.wikipedia.org/wiki/Computer_file) between a computer and an external hard drive and across [networked](https://en.wikipedia.org/wiki/Computer_network) [computers](https://en.wikipedia.org/wiki/Computer) by comparing the [modification times](https://en.wikipedia.org/wiki/Timestamping_(computing))and sizes of files.[\[3\)(https://en.wikipedia.org/wiki/Rsync#cite_note-man_page-3) It is commonly found on [Unix-like](https://en.wikipedia.org/wiki/Unix-like) [operating systems](https://en.wikipedia.org/wiki/Operating_system). The rsync algorithm is a type of [delta encoding](https://en.wikipedia.org/wiki/Delta_encoding), and is used for minimizing network usage. [Zlib](https://en.wikipedia.org/wiki/Zlib) may be used for additional [data compression](https://en.wikipedia.org/wiki/Data_compression),[\[3\)(https://en.wikipedia.org/wiki/Rsync#cite_note-man_page-3) and [SSH](https://en.wikipedia.org/wiki/Secure_Shell) or [stunnel](https://en.wikipedia.org/wiki/Stunnel) can be used for security. read more [here](https://book.hacktricks.xyz/pentesting/873-pentesting-rsync)
+**rsync** is a utility for efficiently transferring and synchronizing files between a computer and an external hard drive and across networked computers by comparing the modification times and sizes of files. It is commonly found on Unix-like operating systems. The rsync algorithm is a type of delta encoding, and is used for minimizing network usage. Zlib may be used for additional data compression and SSH or stunnel can be used for security. read more [here](https://book.hacktricks.xyz/pentesting/873-pentesting-rsync)
 
 ### Enumeration
 
@@ -510,7 +510,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 # Nmap done at Sat May 15 13:50:52 2021 -- 1 IP address (1 host up) scanned in 3.89 seconds
 ```
 
-Scanned using nmap scripts but no luck so far. So I think we may have to bruteforce in order to get the credentials. So we do have some usernames while we were enumerating the smb server. so let's bruteforce and see if we can find anything.
+Scanned using nmap scripts got the same result.
 
 ### Gaining Access
 
