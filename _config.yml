@@ -50,7 +50,7 @@ google_site_verification: 8NCAmlRw22dN-GWtJ0aH77FVZWLZc6wv3Yc-0t-jCfo # change t
 # --------------------------
 
 google_analytics:
-  id: 'G-BH92ZF9D4L'              # fill in your Google Analytics ID
+  id: 'G-ZWRQJRHCFP'              # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
