@@ -1,5 +1,5 @@
 ---
-title: About
+title: About Me
 icon: fas fa-info
 order: 4
 ---
@@ -17,8 +17,8 @@ I am a Hacker, Programmer & FreeLancer, (atleast I consider myself to be). I am 
 <div align="center">
 	<a href="https://twitter.com/thehackersbrain" style="margin-right: 1.5rem" target="_blank">Twitter</a>
 	<a href="https://github.com/thehackersbrain" style="margin-right: 1.5rem" target="_blank">GitHub</a>
-	<a href="https://thehackersbrain.github.io/" style="margin-right: 1.5rem" target="_blank">PortFolio</a>
-	<a href="https://thehackersbrain.github.io/blog/" style="margin-right: 1.5rem" target="_blank">Blog</a>
+	<a href="https://gauravraj.tech/" style="margin-right: 1.5rem" target="_blank">PortFolio</a>
+	<a href="https://blog.gauravraj.tech/" style="margin-right: 1.5rem" target="_blank">Blog</a>
 	<a href="https://tryhackme.com/p/hackersbrain" style="margin-right: 1.5rem" target="_blank">TryHackMe</a>
 	<a href="https://app.hackthebox.eu/profile/303514" style="margin-right: 1.5rem" target="_blank">HackTheBox</a>
 	<a href="https://github.com/thehackersbrain?tab=repositories" style="margin-right: 1.5rem" target="_blank">Projects</a>
