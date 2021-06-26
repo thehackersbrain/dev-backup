@@ -1,7 +1,7 @@
 ---
 title: Troll 2 Vunhub Machine Writeup and Walkthrough
 author: Gaurav Raj
-date: 2021-06-26 15:15:00 +0800
+date: 2021-06-26 15:15:00 +0530
 categories: [CTF, Vulnhub]
 tags: [ctf, vulnhub, boot2root, writeup, walkthrough, johntheripper, zip2john, gdb, ftp, ssh, python, python3, buffer overflow, stack based buffer overflow, shellcode, shellcoding, thehackersbrain, hackersbrain, gaurav raj]
 
