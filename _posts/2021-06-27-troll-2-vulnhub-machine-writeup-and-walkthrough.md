@@ -362,6 +362,7 @@ this binary will change the permission of the `ls` binary
 
 3. Third Binary
 Simply running strings didn't get any interesting result, so here's the source of the main function.
+
 ```c
 int main(int argc,char **argv) {
   int iVar1;
