@@ -363,6 +363,7 @@ this binary will change the permission of the `ls` binary
 3. Third Binary
 Simply running strings didn't get any interesting result, so here's the source of the main function.
 
+
 ```c
 int main(int argc,char **argv) {
   int iVar1;
@@ -378,7 +379,9 @@ int main(int argc,char **argv) {
   iVar1 = printf("%s",local_110);
   return iVar1;
 }
+
 ```
+
 
 turns out that this is a simple buffer overflow vulnerable binary, which we have to exploit in order to get the root shell. Beware while working with these binaries.
 
