@@ -41,15 +41,15 @@ it's just makes easier for us to configure **vim** for using it as an full time 
 First of all we need to install Neovim in our system, if not already installed ;)
 
 - On Mac
-  ```
+  ```bash
   brew install neovim
   ```
 - Ubuntu
-  ```
+  ```bash
   apt install neovim
   ```
 - Arch Linux
-  ```
+  ```bash
   pacman -S neovim
   ```
 
@@ -58,7 +58,7 @@ First of all we need to install Neovim in our system, if not already installed ;
 Now we need to create some of the configuration files for our newly intalled **NeoVim**.
 
 - Make a config directory and create a `init.vim` file inside it.
-  ```
+  ```bash
   mkdir ~/.config/nvim/ && touch ~/.config/nvim/init.vim
   ```
 
@@ -123,7 +123,7 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
   ```bash
   :PlugStatus
   ```
-- Install all of your plugins mentioned in `plugins.vim` file
+- Istall all of your plugins mentioned in `plugins.vim` file
   ```bash
   :PlugInstall
   ```
