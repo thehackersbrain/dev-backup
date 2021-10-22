@@ -22,3 +22,5 @@ gem "webrick", "~> 1.7"
 
 # Twitter Widget Plugin
 gem 'jekyll-twitter-plugin'
+
+gem "jekyll", "~> 4.2"
