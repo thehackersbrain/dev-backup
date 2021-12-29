@@ -19,7 +19,7 @@ if [[ $# == 1 ]]; then
 	git push -u origin main
 	echo -e "[$green+$reset] Blog Updated Successfully..."
 	cd ..
-	git add . && git commit -m '$1' && git push -u origin main
+	git add . && git commit -m "$1" && git push -u origin main
 	echo -e "[$green+$reset] Backup Completed..."
 else
 	echo "Usage: $0 'Git Commit Message'"
