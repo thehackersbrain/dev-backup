@@ -5,7 +5,7 @@ theme: jekyll-theme-chirpy
 
 # Only if your site type is GitHub Project sites and doesn't have a custom domain,
 # change below value to '/projectname'.
-baseurl: "/blog"
+baseurl: ""
 
 # the HTML language tag › https://www.w3.org/International/questions/qa-choosing-language-tags
 lang: en-US
@@ -24,7 +24,7 @@ description: >- # used by seo meta and the atom feed
   but most importantly I'm just a curious Student learning and exploring new things. :)
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://thehackersbrain.github.io"
+url: "https://blog.gauravraj.xyz"
 
 github:
   username: thehackersbrain # change to your github username
@@ -47,7 +47,7 @@ social:
     - https://www.linkedin.com/in/thehackersbrain
 
 # google_site_verification: google_meta_tag_verification # change to your verification string
-google_site_verification: 8NCAmlRw22dN-GWtJ0aH77FVZWLZc6wv3Yc-0t-jCfo # change to your verification string
+google_site_verification: "ahcmaTMnM-_vajNE0RxVYQKJgJvAYyz_GHN_I2RvwCY" # change to your verification string
 # --------------------------
 
 google_analytics:
