@@ -199,4 +199,3 @@ Let's exploit that and get a reverse shell as root.
 1. So ran that exploit with the specified arguments and got the root flag
 
 So here we completed our machine, hope you all enjoyed it. Don't forget to share if you liked.
-
