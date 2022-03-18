@@ -950,6 +950,10 @@ $sidebar-display: "sidebar-display";
   }
 }
 
+.post-tag:hover {
+  background-color: var(--search-wrapper-bg) !important;
+}
+
 #search-results {
   padding-bottom: 6rem;
   a {

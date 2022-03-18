@@ -31,7 +31,8 @@
   --btn-backtotop-color: var(--text-color);
   --btn-backtotop-border-color: var(--btn-border-color);
   --btn-box-shadow: var(--main-wrapper-bg);
-  --card-header-bg: rgb(51, 50, 50);
+  // --card-header-bg: rgb(51, 50, 50);
+  --card-header-bg: var(--top-wrapper-bg);
   --label-color: rgb(108, 117, 125);
   --checkbox-color: rgb(118 120 121);
   --checkbox-checked-color: var(--link-color);
@@ -47,7 +48,7 @@
   /* Home page */
   --post-list-text-color: rgb(175, 176, 177);
   --btn-patinator-text-color: var(--text-color);
-  --btn-paginator-hover-color: rgb(64, 65, 66);
+  --btn-paginator-hover-color: var(--top-wrapper-bg);
   --btn-active-bg: rgba(28, 52, 94, 1);
   --btn-active-border-color: rgb(66, 94, 138);
   --btn-text-color: var(--text-color);
@@ -65,7 +66,8 @@
   --tb-border-color: var(--tb-odd-bg);
   --footnote-target-bg: rgb(63, 81, 181);
   --btn-share-color: #6c757d;
-  --btn-share-hover-color: #bfc1ca;
+  // --btn-share-hover-color: #bfc1ca;
+  --btn-share-hover-color: var(--nav-cursor-color);
   --relate-post-date: var(--text-muted-color);
   --card-bg: rgb(23, 42, 69);
   --card-border-color: var(--btn-border-color);
@@ -129,14 +131,18 @@
     }
   }
 
+  // #archives li:nth-child(odd) {
+  //   background-image: linear-gradient(
+  //     to left,
+  //     rgb(26, 26, 30),
+  //     rgb(39, 39, 45),
+  //     rgb(39, 39, 45),
+  //     rgb(39, 39, 45),
+  //     rgb(26, 26, 30));
+  // }
+
   #archives li:nth-child(odd) {
-    background-image: linear-gradient(
-      to left,
-      rgb(26, 26, 30),
-      rgb(39, 39, 45),
-      rgb(39, 39, 45),
-      rgb(39, 39, 45),
-      rgb(26, 26, 30));
+    background-image: linear-gradient(to left, #171f4d, #171e39, #171e39, #171e39, #171f4d);
   }
 
 } // dark-scheme
