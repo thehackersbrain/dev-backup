@@ -4,12 +4,16 @@
 
 @mixin dark-scheme {
   /* framework */
-  --main-wrapper-bg: rgb(27, 27, 30);
+  /* --main-wrapper-bg: rgb(27, 27, 30); */
+  --main-wrapper-bg: rgb(10, 25, 47);
   --body-bg: var(--main-wrapper-bg);
-  --topbar-wrapper-bg: rgb(39, 40, 43);
-  --search-wrapper-bg: rgb(34, 34, 39);
+  /* --topbar-wrapper-bg: rgb(39, 40, 43); */
+  --topbar-wrapper-bg: rgb(10, 25, 47);
+  --top-wrapper-bg: rgb(35, 53, 84);
+  // --search-wrapper-bg: rgb(34, 34, 39);
+  --search-wrapper-bg: rgb(17, 34, 64);
   --search-icon-color: rgb(100, 102, 105);
-  --input-focus-border-color: rgb(112, 114, 115);
+  --input-focus-border-color: rgb(100, 255, 218);
   --mask-bg: rgb(68, 69, 70);
   --footer-bg-color: var(--main-wrapper-bg);
 
@@ -20,10 +24,10 @@
   --link-color: rgb(138, 180, 248);
   --link-underline-color: rgb(82, 108, 150);
   --main-border-color: rgb(44, 45, 45);
-  --button-bg: rgb(39, 40, 43);
+  --button-bg: rgb(255, 255, 255, 0);
   --blockquote-border-color: rgb(66, 66, 66);
   --blockquote-text-color: rgb(117, 117, 117);
-  --btn-border-color: rgb(63, 65, 68);
+  --btn-border-color: var(--input-focus-border-color);
   --btn-backtotop-color: var(--text-color);
   --btn-backtotop-border-color: var(--btn-border-color);
   --btn-box-shadow: var(--main-wrapper-bg);
@@ -33,8 +37,9 @@
   --checkbox-checked-color: var(--link-color);
 
   /* Sidebar */
-  --nav-cursor-color: rgb(183, 182, 182);
-  --sidebar-bg: radial-gradient(circle, #242424 0%, #1d1f27 100%);
+  // --nav-cursor-color: rgb(183, 182, 182);
+  --nav-cursor-color: rgb(100, 255, 218);
+  --sidebar-bg: radial-gradient(circle, #0f1e38 0%, #031028 100%);
 
   /* Top Bar */
   --topbar-text-color: var(--text-color);
@@ -53,8 +58,8 @@
 
   /* Posts */
   --toc-highlight: rgb(116, 178, 243);
-  --tag-bg: rgb(41, 40, 40);
-  --tag-hover: rgb(43, 56, 62);
+  --tag-bg: rgb(17, 34, 64);
+  --tag-hover: rgb(35, 53, 84);
   --tb-odd-bg: rgba(42, 47, 53, 0.52); /* odd rows of the posts' table */
   --tb-even-bg: rgb(31, 31, 34); /* even rows of the posts' table */
   --tb-border-color: var(--tb-odd-bg);
@@ -62,9 +67,10 @@
   --btn-share-color: #6c757d;
   --btn-share-hover-color: #bfc1ca;
   --relate-post-date: var(--text-muted-color);
-  --card-bg: rgb(39, 40, 43);
-  --card-border-color: rgb(53, 53, 60);
+  --card-bg: rgb(23, 42, 69);
+  --card-border-color: var(--btn-border-color);
   --card-box-shadow: var(--main-wrapper-bg);
+  --social-icon-color: rgb(100, 255, 218);
 
   /* tags */
   --tag-border: rgb(59, 79, 88);
@@ -82,7 +88,7 @@
   --timeline-year-dot-color: var(--timeline-color);
 
   /* Footer */
-  --footer-link: rgb(171, 171, 171);
+  --footer-link: var(--btn-border-color);
 
   .post-content img {
     filter: brightness(90%);
